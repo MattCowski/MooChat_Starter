@@ -1,0 +1,58 @@
+(note to self: capistrano? git ignore? rename doc to .rm? pushing notes gem? start blog and also go over Subl plugins, key bindings shortcuts. Make a minimal cheatsheet. write notes and blog simultaneously!)
+
+
+Hey, I'm Matt! This here app is a way I will be taking notes on my path to become a Rails Rubyist. It's late August 2013 and I expect this will be useful but might become outdated if a few months. (using rails 4, ruby 2)
+
+	rails new APPNAME
+
+	git init dat shit
+
+I'm currently working off my Mac Air but prefer using my Desktop at home, so...
+	
+	git add . 
+	git -m "yet another project :("
+
+
+First gems that come to mind will help me describe the application (rspec) and check the browser if stuff I write is actually working... automatically. Yes, that means NO MORE refreshing the browser every 2 minutes. o_O
+
+Gemfile
+	rspec
+	liveReload
+	guard
+	spork
+
+Next, I know I don't want to be writing custom HTML, CSS or messing around too much with jQuery / JS, so I'll add some help from Google and Twitter
+
+	...
+	angular
+	twitter bootstrap
+
+In case you can't tell, I'm still a noobie so I'll keep my DB simple
+
+	...
+	sqlite (for dev, test)
+
+Cool. Now let's show off. 
+	heroku stuff
+
+
+
+
+tips on what to write aboot:
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
