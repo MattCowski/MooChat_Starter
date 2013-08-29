@@ -1,12 +1,12 @@
-<<<<<<< HEAD
-== README
+todo:
+on our own:
+	 railscasts: better errors 
+	 finish layouts, submit, working site with placeholder
+together:
+	quiz ourselves with hartle tutorial without looking
+	
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
-
-* Ruby version
 =======
 (urgent: push github repo, notes from video)
 (note to self: capistrano? git ignore? rename doc to .rm? pushing notes gem? start blog and also go over Subl plugins, key bindings shortcuts. Make a minimal cheatsheet. write notes and blog simultaneously!)
@@ -35,6 +35,8 @@ Gemfile
 	liveReload
 	guard
 	spork
+http://blog.55minutes.com/2013/01/lightning-fast-sass-reloading-in-rails-32/
+guard -P livereload
 
 Next, I know I don't want to be writing custom HTML, CSS or messing around too much with jQuery / JS, so I'll add some help from Google and Twitter
 
@@ -45,7 +47,11 @@ Next, I know I don't want to be writing custom HTML, CSS or messing around too m
 In case you can't tell, I'm still a noobie so I'll keep my DB simple
 
 	...
-	sqlite (for dev, test)
+	
+Rails g differences
+	controller
+	rails generate controller StaticPages home help --no-test-frameworkx
+	rails generate rspec:install
 
 Cool. Now let's show off. 
 	heroku stuff
